@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de la Vida</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <div id="board" class="board"></div>
+        <div class="controls">
+            <button id="nextGeneration">Siguiente Generación</button>
+            <button id="autoGeneration">Iniciar/Pausar Automático</button>
+            <button id="resetBoard">Restablecer Tablero</button>
+            <button id="randomBoard">Tablero Aleatorio</button>
+            <button id="simpleStart">Patrón Simple</button>
+            <input type="range" id="speed" min="100" max="1000" value="550" step="50">
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
